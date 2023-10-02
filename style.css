@@ -124,6 +124,9 @@
     #hero-section {
       display: none !important;
     }
+    nav{
+        position:static;
+    }
     #navbar{
       flex-direction: column;
     }
