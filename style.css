@@ -1,0 +1,141 @@
+.verticle-line {
+    border-left: 2px solid #f2f2f2f2;
+    height: 70px;
+  }
+  
+  nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+  }
+  
+  .delivery-location > h5 {
+    font-weight: 900;
+    margin-top: 12px;
+    margin-bottom: 0px;
+  }
+  
+  .delivery-location > p {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+  }
+  
+  .nav-search-bar {
+    border-radius: 10px;
+    border: 1px solid #f2f2f2f2;
+    background-color: #f8f8f8;
+  }
+  
+  .nav-search-bar > input {
+    border: none;
+    background-color: transparent;
+    width: 40vw;
+    height: 50px;
+  }
+  
+  .login {
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .my-cart {
+    background-color: #0c831f !important;
+    color: white !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    height: 52px !important;
+    width: 112px !important;
+  }
+  
+  .scroll-container {
+    width: 82vw;
+    margin: auto;
+    white-space: nowrap;
+    overflow: scroll;
+  }
+  .scroll-container > img {
+    padding-right: 10px;
+  }
+  #category-1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 6.5vw;
+    justify-content: space-around;
+  }
+  .category {
+    white-space: nowrap;
+    width: 84vw;
+    margin: auto;
+    /* margin-bottom: 25px; */
+  }
+  
+  .my-card > img {
+    margin-left: 10px !important;
+    margin-inline: auto;
+  }
+  
+  .cards {
+    overflow: scroll;
+  }
+  
+  .my-card {
+    display: inline-block !important;
+    width: 142px;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    margin-inline: 7px !important;
+    white-space: wrap;
+  }
+  
+  .card-body > h6 {
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+  .time {
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+  }
+  
+  .product-weight {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  .price {
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .add_product {
+    width: 66px !important;
+    border-radius: 0.375rem !important;
+    height: 31px !important;
+    padding: 3px !important;
+  }
+  @media screen and (max-width: 500px) {
+    #hero-section {
+      display: none !important;
+    }
+    #navbar{
+      flex-direction: column;
+    }
+    .verticle-line{
+      display: none;
+    }
+    .nav-search-bar{
+      width: 90vw;
+    }
+    .login, my-cart{
+      margin-bottom: 10px !important;
+      margin-top: 10px !important;
+    }
+  }
+  
